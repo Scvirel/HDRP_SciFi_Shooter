@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 2547144003498663431}
   - component: {fileID: 6717539293180886037}
   m_Layer: 0
-  m_Name: Human Man
+  m_Name: Zmuric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
