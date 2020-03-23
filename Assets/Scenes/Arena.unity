@@ -986,7 +986,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &85618252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15219,7 +15219,6 @@ GameObject:
   - component: {fileID: 1630824446}
   - component: {fileID: 1630824445}
   - component: {fileID: 1630824444}
-  - component: {fileID: 1630824447}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -15290,7 +15289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1630824447}
+      - m_Target: {fileID: 85618252}
         m_MethodName: Leave
         m_Mode: 1
         m_Arguments:
@@ -15337,20 +15336,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630824442}
   m_CullTransparentMesh: 0
---- !u!114 &1630824447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630824442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07f13d029bfe10a4a94f3a9eb6ec331f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _player_prefab: Human man
-  _point1: {fileID: 1947542981}
 --- !u!4 &1654644162 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4926591831143164, guid: dad5ac76e863a834aa3d74b266e53f15,
