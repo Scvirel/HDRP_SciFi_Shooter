@@ -1302,7 +1302,6 @@ GameObject:
   - component: {fileID: 8758151699228927463}
   - component: {fileID: 3078137752127920414}
   - component: {fileID: 3642123430664334785}
-  - component: {fileID: 3642123430664334787}
   m_Layer: 13
   m_Name: Glock
   m_TagString: Untagged
@@ -1386,6 +1385,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b18d14c3d587414f99873680520bd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerCam: {fileID: 6191415550762287215}
+  _firePoint: {fileID: 3594149460673243264}
+  _bulletPrefab: {fileID: 1778636581720458845, guid: 1ea38418edee3614c980b79b9b4a176d,
+    type: 3}
   _weaponId: 0
   _handPlayerPosition: {x: 0.166, y: -0.041, z: 0.026}
   _hiddenPlayerPosition: {x: -0.109, y: -0.156, z: 0.026}
@@ -1393,24 +1396,6 @@ MonoBehaviour:
   _hiddenPlayerRotation: {x: 165.274, y: 117.677, z: 94.714}
   _handParent: {fileID: 1015414819988953901}
   _hiddenParent: {fileID: 7068583664794755617}
-  _bulletFire: {fileID: 3642123430664334787}
---- !u!114 &3642123430664334787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3642123430664334786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda10d9b4ed026448b1c0f1f127eb450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerCamera: {fileID: 6191415550762287215}
-  _spawnPosition: {fileID: 3594149460673243264}
-  _bulletPrefab: {fileID: 1778636581720458845, guid: 1ea38418edee3614c980b79b9b4a176d,
-    type: 3}
-  _maxLength: 100
 --- !u!1 &3690013889910546396
 GameObject:
   m_ObjectHideFlags: 0
