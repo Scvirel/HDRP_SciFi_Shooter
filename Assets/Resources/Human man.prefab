@@ -1096,6 +1096,8 @@ MonoBehaviour:
   Velocity: {x: 0, y: 0, z: 0}
   _handParent: {fileID: 1015414819988953901}
   _hiddenParent: {fileID: 7068583664794755617}
+  _chatMessagePrefab: {fileID: 2720676017431454839, guid: e344d453f1b1fec4d8f9cd79d6615253,
+    type: 3}
   _characterController: {fileID: 3348909050272411227}
   _GroundChecker: {fileID: 6191415550402796042}
   _playerBody: {fileID: 1739214989027515470}

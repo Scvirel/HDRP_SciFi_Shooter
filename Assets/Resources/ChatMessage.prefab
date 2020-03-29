@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2720676017431454836}
   - component: {fileID: 2720676017431454834}
   - component: {fileID: 2720676017431454837}
-  - component: {fileID: 2955293615329762368}
   m_Layer: 0
   m_Name: ChatMessage
   m_TagString: Untagged
@@ -78,17 +77,3 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &2955293615329762368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2720676017431454839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 895fedc703a9ac34dbda9e6eac51767d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxLengthCount: 43
-  _additionalHeight: 10
