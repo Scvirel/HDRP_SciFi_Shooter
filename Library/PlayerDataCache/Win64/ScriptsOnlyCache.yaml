@@ -89,8 +89,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -185,7 +187,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15248}
     - Class: 114
-      Script: {instanceID: 16130}
+      Script: {instanceID: 15644}
+    - Class: 114
+      Script: {instanceID: 16132}
     - Class: 114
       Script: {instanceID: 16902}
     - Class: 114
@@ -194,8 +198,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17304}
     - Class: 114
       Script: {instanceID: 17344}
-    - Class: 114
-      Script: {instanceID: 27152}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,29 +358,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15632}
     - Class: 114
-      Script: {instanceID: 15748}
+      Script: {instanceID: 15750}
     - Class: 114
-      Script: {instanceID: 15788}
+      Script: {instanceID: 15790}
     - Class: 114
-      Script: {instanceID: 15822}
+      Script: {instanceID: 15824}
     - Class: 114
-      Script: {instanceID: 15856}
+      Script: {instanceID: 15858}
     - Class: 114
-      Script: {instanceID: 15944}
+      Script: {instanceID: 15946}
     - Class: 114
-      Script: {instanceID: 16104}
+      Script: {instanceID: 16106}
     - Class: 114
-      Script: {instanceID: 16116}
+      Script: {instanceID: 16118}
     - Class: 114
-      Script: {instanceID: 16130}
+      Script: {instanceID: 16132}
     - Class: 114
-      Script: {instanceID: 16212}
+      Script: {instanceID: 16214}
     - Class: 114
-      Script: {instanceID: 16482}
+      Script: {instanceID: 16484}
     - Class: 114
-      Script: {instanceID: 16620}
+      Script: {instanceID: 16622}
     - Class: 114
-      Script: {instanceID: 16678}
+      Script: {instanceID: 16680}
     - Class: 114
       Script: {instanceID: 16862}
     - Class: 114
@@ -764,7 +766,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: e106437032f54bb6706d28f9e0bf4289
+      Hash: e6725bd5aa3af7ab5d1bcbf357925f45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1904,6 +1906,12 @@ ScriptsOnlyBuild:
     className: PropertyCell
   - hash:
       serializedVersion: 2
+      Hash: 1b473e29196bcfe39bdd576efdec2e22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Chat
+  - hash:
+      serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -2598,12 +2606,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXUISliderBinder
-  - hash:
-      serializedVersion: 2
-      Hash: 1b473e29196bcfe39bdd576efdec2e22
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Chat
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
