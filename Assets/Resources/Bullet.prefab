@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 5934679856508484941}
   - component: {fileID: 3566693153415814298}
   - component: {fileID: 1403447814972894125}
-  - component: {fileID: 5940339593777286075}
   - component: {fileID: 6370605732666587481}
   - component: {fileID: 784335559370342110}
   - component: {fileID: 8132319068562088547}
+  - component: {fileID: 7035510438428833484}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -84,19 +84,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &5940339593777286075
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778636581720458845}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6370605732666587481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,8 +133,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda10d9b4ed026448b1c0f1f127eb450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletSpeed: 365
-  _destroyTime: 2
+  _damageValue: 10
+--- !u!136 &7035510438428833484
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778636581720458845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 4
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0041658985}
 --- !u!1 &2315824735479801023
 GameObject:
   m_ObjectHideFlags: 0
